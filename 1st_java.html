@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script>
+        function myFunction() {
+            document.getElementById("text").innerHTML = 'Paragraph Change.';
+        }
+
+        window.alert (5+6);
+    
+    </script>
+</head>
+<body>
+
+<h2> Light on and OFF Java Script on Click</h2>
+
+<p>JavaScript can change HTML attribute values.</p>
+
+<p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+
+<button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
+
+<img id="myImage" src="pic_bulboff.gif" style="width:100px">
+
+<button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button>
+
+<h2>Java Script Text Size Change and Hide onclick</h2>
+
+<p id="txt">This is my frist Java Script Lesson</p>
+
+<button type="button" onclick="document.getElementById('txt').style.fontSize='35px'";>Font 35px</button>
+<button type="button" onclick="document.getElementById('txt').style.fontSize='14px'">Font 12px</button>
+<button type="button" onclick="document.getElementById('txt').style.display='none'">text none</button>
+<button type="button" onclick="document.getElementById('txt').style.display='Block'">Text Show</button>
+<button type="button" onclick="document.write(5+5)"> value show</button>
+
+
+<p id="text"></p>
+
+<script>
+    document.getElementById('text').innerHTML = "My First Java Script Code";
+</script>
+
+
+<p id="text">My Function action</p>
+
+<button class="buttion" onclick="myFunction()">Change</button>
+
+<button type="button" onclick="window.print()">Print This Page</button>
+
+</body>
+</html>
